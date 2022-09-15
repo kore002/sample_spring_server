@@ -1,0 +1,21 @@
+package com.example.demo.service;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.demo.base.vo.SampleVo;
+import com.example.demo.dao.ISampleDao;
+@Service
+public class SampleServiceimpl implements ISampleService {
+	@Autowired
+	ISampleService dao;
+
+	@Override
+	public List<SampleVo> list() {
+		List<SampleVo> list = dao.list();
+    	return list;
+	}
+
+}

@@ -1,0 +1,136 @@
+package com.example.demo.base.vo;
+
+import java.sql.Date;
+import java.sql.Timestamp;
+
+public class ComtccmmncodeVo {
+	private String codeId	    ;
+	private String codeIdNm     ;
+	private String codeIdDc     ;
+	private String useAt        ;
+	private String clCode	    ;
+	private Timestamp frstRegistPnttm   ;
+	private String frstRegisterId    ;
+	private Timestamp lastUpdtPnttm	 ;
+	private String lastUpdusrId      ;
+	
+	
+	
+	public String getCodeId() {
+		return codeId;
+	}
+
+
+
+	public void setCodeId(String codeId) {
+		this.codeId = codeId;
+	}
+
+
+
+	public String getCodeIdNm() {
+		return codeIdNm;
+	}
+
+
+
+	public void setCodeIdNm(String codeIdNm) {
+		this.codeIdNm = codeIdNm;
+	}
+
+
+
+	public String getCodeIdDc() {
+		return codeIdDc;
+	}
+
+
+
+	public void setCodeIdDc(String codeIdDc) {
+		this.codeIdDc = codeIdDc;
+	}
+
+
+
+	public String getUseAt() {
+		return useAt;
+	}
+
+
+
+	public void setUseAt(String useAt) {
+		this.useAt = useAt;
+	}
+
+
+
+	public String getClCode() {
+		return clCode;
+	}
+
+
+
+	public void setClCode(String clCode) {
+		this.clCode = clCode;
+	}
+
+
+
+	public Timestamp getFrstRegistPnttm() {
+		return frstRegistPnttm;
+	}
+
+
+
+	public void setFrstRegistPnttm(Timestamp frstRegistPnttm) {
+		this.frstRegistPnttm = frstRegistPnttm;
+	}
+
+
+
+	public String getFrstRegisterId() {
+		return frstRegisterId;
+	}
+
+
+
+	public void setFrstRegisterId(String frstRegisterId) {
+		this.frstRegisterId = frstRegisterId;
+	}
+
+
+
+	public Timestamp getLastUpdtPnttm() {
+		return lastUpdtPnttm;
+	}
+
+
+
+	public void setLastUpdtPnttm(Timestamp lastUpdtPnttm) {
+		this.lastUpdtPnttm = lastUpdtPnttm;
+	}
+
+
+
+	public String getLastUpdusrId() {
+		return lastUpdusrId;
+	}
+
+
+
+	public void setLastUpdusrId(String lastUpdusrId) {
+		this.lastUpdusrId = lastUpdusrId;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "ComtccmmncodeVo [codeId=" + codeId + ", codeIdNm=" + codeIdNm + ", codeIdDc=" + codeIdDc + ", useAt="
+				+ useAt + ", clCode=" + clCode + ", frstRegistPnttm=" + frstRegistPnttm + ", frstRegisterId="
+				+ frstRegisterId + ", lastUpdtPnttm=" + lastUpdtPnttm + ", lastUpdusrId=" + lastUpdusrId + "]";
+	}
+
+
+
+}

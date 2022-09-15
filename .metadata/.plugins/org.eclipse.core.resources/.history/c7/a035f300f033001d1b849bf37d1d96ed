@@ -1,0 +1,18 @@
+package com.example.demo.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+import com.moble.dev1.base.vo.ComtccmmncodeVo;
+
+@Mapper
+public interface IComtccmmncodeDao {
+	public List<ComtccmmncodeVo> listDao();
+    public ComtccmmncodeVo viewDao(String name);
+    public int writeDao(Map<String, String> map);
+    public int deleteDao(@Param("_name") String name);
+    public int articleCount();
+}

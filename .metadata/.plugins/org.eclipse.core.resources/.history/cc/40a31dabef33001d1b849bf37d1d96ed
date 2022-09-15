@@ -1,0 +1,10 @@
+package com.example.demo.base.vo;
+
+import java.sql.Date;
+import java.sql.Timestamp;
+
+public class SampleVo {
+
+
+
+}

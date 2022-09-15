@@ -1,0 +1,11 @@
+1663056155130	Rename type 'ComtccmmncodeVo'
+1663056413973	Rename type 'ComtccmmncodeController'
+1663056893594	Delete element
+1663134035027	Delete element
+1663134047673	Delete element
+1663134141979	Rename type 'IComtccmmncodeDao'
+1663134331560	Rename type 'ComtccmmncodeServiceimpl'
+1663134349310	Rename type 'IComtccmmncodeService'
+1663134823174	Rename resource 'IComtccmmncodeDao.xml'
+1663135525637	Rename package 'com.example.demo.dao'
+1663135540961	Rename package 'com.example.demo.service'

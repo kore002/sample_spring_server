@@ -1,0 +1,17 @@
+package com.example.demo.base.vo;
+
+import java.sql.Date;
+import java.sql.Timestamp;
+
+public class SampleVo {
+	private double EMPNO	    ;
+	private String ENAME     ;
+	private String JOB     ;
+	private double MGR        ;
+	private Timestamp HIREDATE   ;
+	private double SAL    ;
+	private double COMM	 ;
+	private double DEPTINO      ;
+
+
+}

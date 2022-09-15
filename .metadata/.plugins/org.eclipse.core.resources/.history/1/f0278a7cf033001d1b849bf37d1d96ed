@@ -1,0 +1,14 @@
+package com.example.demo.service;
+
+import java.util.List;
+import java.util.Map;
+
+import com.moble.dev1.base.vo.ComtccmmncodeVo;
+
+public interface IComtccmmncodeService {
+	public List<ComtccmmncodeVo> list();
+    public ComtccmmncodeVo view(String name);
+    public int write(Map<String, String> map);
+    public int delete(String name);
+    public int count();
+}

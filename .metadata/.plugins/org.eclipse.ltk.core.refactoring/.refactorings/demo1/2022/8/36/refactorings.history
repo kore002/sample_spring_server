@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;demo1/src/main/resources/mybatis/mapper/base/dao/ICityDao.xml&apos; to &apos;IComtccmmncodeDao.xml&apos;" description="Rename resource &apos;ICityDao.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/mybatis/mapper/base/dao/ICityDao.xml" name="IComtccmmncodeDao.xml" stamp="1661935375529" updateReferences="true"/>
+</session>

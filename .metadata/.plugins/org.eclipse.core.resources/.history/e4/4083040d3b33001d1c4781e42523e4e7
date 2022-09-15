@@ -1,0 +1,20 @@
+package com.example.demo.base.vo;
+
+import java.sql.Date;
+import java.sql.Timestamp;
+
+public class SampleVo {
+	private String id	    ;
+	private String age     ;
+	private String name     ;
+	private String       ;
+	private String clCode	    ;
+	private Timestamp frstRegistPnttm   ;
+	private String frstRegisterId    ;
+	private Timestamp lastUpdtPnttm	 ;
+	private String lastUpdusrId      ;
+	
+	
+
+
+}
